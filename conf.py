@@ -27,72 +27,6 @@ SITE_URL = "https://litProgConTeXt.github.io/"
 BLOG_EMAIL = "stehen@perceptisys.co.uk"
 BLOG_DESCRIPTION = "Literate Programming in ConTeXt"  # (translatable)
 
-# Nikola is multilingual!
-#
-# Currently supported languages are:
-#
-# en        English
-# af        Afrikaans
-# ar        Arabic
-# az        Azerbaijani
-# bg        Bulgarian
-# bs        Bosnian
-# ca        Catalan
-# cs        Czech [ALTERNATIVELY cz]
-# da        Danish
-# de        German
-# el        Greek [NOT gr]
-# eo        Esperanto
-# es        Spanish
-# et        Estonian
-# eu        Basque
-# fa        Persian
-# fi        Finnish
-# fr        French
-# fur       Friulian
-# gl        Galician
-# he        Hebrew
-# hi        Hindi
-# hr        Croatian
-# hu        Hungarian
-# ia        Interlingua
-# id        Indonesian
-# it        Italian
-# ja        Japanese [NOT jp]
-# ko        Korean
-# lt        Lithuanian
-# mi        Maori
-# ml        Malayalam
-# mr        Marathi
-# nb        Norwegian (Bokmål)
-# nl        Dutch
-# oc        Occitan
-# pa        Punjabi
-# pl        Polish
-# pt        Portuguese
-# pt_br     Portuguese (Brazil)
-# ru        Russian
-# sk        Slovak
-# sl        Slovene
-# sq        Albanian
-# sr        Serbian (Cyrillic)
-# sr_latin  Serbian (Latin)
-# sv        Swedish
-# te        Telugu
-# th        Thai
-# tr        Turkish [NOT tr_TR]
-# uk        Ukrainian
-# ur        Urdu
-# vi        Vietnamese
-# zh_cn     Chinese (Simplified)
-# zh_tw     Chinese (Traditional)
-#
-# If you want to use Nikola with a non-supported language you have to provide
-# a module containing the necessary translations
-# (cf. the modules at nikola/data/themes/base/messages/).
-# If a specific post is not translated to a language, then the version
-# in the default language will be shown instead.
-
 # What is the default language?
 DEFAULT_LANG = "en"
 
@@ -140,13 +74,15 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
-NAVIGATION_LINKS = {
-    DEFAULT_LANG: (
-        ("/archive.html", "Archives"),
-        ("/categories/index.html", "Tags"),
-        ("/rss.xml", "RSS feed"),
-    ),
-}
+DISABLE_INDEXES=True
+
+#NAVIGATION_LINKS = {
+#    DEFAULT_LANG: (
+#        ("/archive.html", "Archives"),
+#        ("/categories/index.html", "Tags"),
+#        ("/rss.xml", "RSS feed"),
+#    ),
+#}
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
