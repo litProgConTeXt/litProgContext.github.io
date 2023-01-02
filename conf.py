@@ -178,10 +178,10 @@ POSTS = (
     ("posts/*.html", "posts", "post.tmpl"),
 )
 PAGES = (
-    ("pages/*.rst", "pages", "page.tmpl"),
-    ("pages/*.md", "pages", "page.tmpl"),
-    ("pages/*.txt", "pages", "page.tmpl"),
-    ("pages/*.html", "pages", "page.tmpl"),
+    ("pages/*.rst", "", "page.tmpl"),
+    ("pages/*.md", "", "page.tmpl"),
+    ("pages/*.txt", "", "page.tmpl"),
+    ("pages/*.html", "", "page.tmpl"),
 )
 
 
@@ -516,7 +516,7 @@ HIDDEN_AUTHORS = ['Guest']
 # Final location for the main blog page and sibling paginated pages is
 # output / TRANSLATION[lang] / INDEX_PATH / index-*.html
 # (translatable)
-# INDEX_PATH = ""
+INDEX_PATH = "blog"
 
 # Optional HTML that displayed on “main” blog index.html files.
 # May be used for a greeting. (translatable)
@@ -594,9 +594,9 @@ ATOM_FILENAME_BASE = "feed"
 # relative URL.
 #
 # If you don't need any of these, just set to []
-REDIRECTIONS = [
-  ("./index.html", "/pages/index.html")
-]
+REDIRECTIONS = []
+#  ("./index.html", "/pages/index.html")
+#]
 
 # Presets of commands to execute to deploy. Can be anything, for
 # example, you may use rsync:
