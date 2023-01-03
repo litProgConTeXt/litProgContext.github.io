@@ -7,7 +7,7 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://litProgConTeXt.github.io/</loc>
-  <lastmod>2023-01-02T19:51:00Z</lastmod>
+  <lastmod>2023-01-03T07:22:00Z</lastmod>
  </url>
  <url>
   <loc>https://litProgConTeXt.github.io/archive.html</loc>
@@ -16,5 +16,13 @@
  <url>
   <loc>https://litProgConTeXt.github.io/categories/</loc>
   <lastmod>2023-01-02T19:51:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://litProgConTeXt.github.io/notes/editor/</loc>
+  <lastmod>2023-01-03T07:22:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://litProgConTeXt.github.io/notes/todo/</loc>
+  <lastmod>2023-01-03T07:22:00Z</lastmod>
  </url>
 </urlset>
